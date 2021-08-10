@@ -1,0 +1,16 @@
+{
+  "name": "garra-store",
+  "version": "1.0.0",
+  "description": "GarRa: Sublimation entrepreneurship store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Giovanny Ramírez <giovannyramirezs@hotmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
