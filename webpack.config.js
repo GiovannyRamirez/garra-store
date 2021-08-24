@@ -25,8 +25,8 @@ module.exports = {
         use: [
           {
             loader: "html-loader",
-          }
-        ]
+          },
+        ],
       },
       {
         test: /\.(s*)css$/,
@@ -36,9 +36,9 @@ module.exports = {
           },
           "css-loader",
           "sass-loader",
-        ]
+        ],
       },
-    ]
+    ],
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -53,5 +53,5 @@ module.exports = {
     contentBase: path.join(__dirname, "dist"),
     compress: true,
     port: 3000,
-  }
-}
+  },
+};
